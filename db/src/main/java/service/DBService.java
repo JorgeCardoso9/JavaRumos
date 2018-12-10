@@ -56,13 +56,5 @@ public class DBService {
         }
         return null;
     }
-
-
-        public Employee updateEmployee (Employee toUpdate) throws ClassNotFoundException, SQLException {
-
-            String uEmployee = "update employees set birth_date = '1994-09-04', first_name = 'Jorge', last_name = 'Pinto', hire_date = '2019-11-28' where emp_no = '500001'";
-            
-            return toUpdate;
-        }
-    }
+}
 
